@@ -100,7 +100,7 @@ class _AwesomeCalendarDialogState extends State<AwesomeCalendarDialog> {
                             currentMonth!.year, currentMonth!.month - 1));
                       },
                     ),
-                    Text(DateFormat('yMMMM').format(currentMonth!)),
+                    Text(DateFormat('yyyy년 MM월').format(currentMonth!)),
                     IconButton(
                       icon: const Icon(Icons.keyboard_arrow_right),
                       onPressed: () {
