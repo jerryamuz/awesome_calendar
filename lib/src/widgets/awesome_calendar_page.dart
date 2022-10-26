@@ -38,7 +38,7 @@ class AwesomeCalendarPage extends StatelessWidget {
   }
 
   List<Widget> buildRows(BuildContext context) {
-    final int startDayOffset = pageStartDate.weekday
+    final int startDayOffset = pageStartDate.weekday;
     final List<Widget> rows = <Widget>[];
     rows.add(weekdayLabels);
 
