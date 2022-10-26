@@ -15,49 +15,49 @@ class DefaultWeekdayLabels extends StatelessWidget {
       children: <Widget>[
         Expanded(
           child: Text(
-            DateFormat('E').format(monday),
+            DateFormat('E', 'ko').format(sunday),
             textAlign: TextAlign.center,
             style: const TextStyle(fontSize: 12, color: Colors.grey),
           ),
         ),
         Expanded(
           child: Text(
-            DateFormat('E').format(tuesday),
+            DateFormat('E', 'ko').format(monday),
             textAlign: TextAlign.center,
             style: const TextStyle(fontSize: 12, color: Colors.grey),
           ),
         ),
         Expanded(
           child: Text(
-            DateFormat('E').format(wednesday),
+            DateFormat('E', 'ko').format(tuesday),
             textAlign: TextAlign.center,
             style: const TextStyle(fontSize: 12, color: Colors.grey),
           ),
         ),
         Expanded(
           child: Text(
-            DateFormat('E').format(thursday),
+            DateFormat('E', 'ko').format(wednesday),
             textAlign: TextAlign.center,
             style: const TextStyle(fontSize: 12, color: Colors.grey),
           ),
         ),
         Expanded(
           child: Text(
-            DateFormat('E').format(friday),
+            DateFormat('E', 'ko').format(thursday),
             textAlign: TextAlign.center,
             style: const TextStyle(fontSize: 12, color: Colors.grey),
           ),
         ),
         Expanded(
           child: Text(
-            DateFormat('E').format(saturday),
+            DateFormat('E', 'ko').format(friday),
             textAlign: TextAlign.center,
             style: const TextStyle(fontSize: 12, color: Colors.grey),
           ),
         ),
         Expanded(
           child: Text(
-            DateFormat('E').format(sunday),
+            DateFormat('E', 'ko').format(saturday),
             textAlign: TextAlign.center,
             style: const TextStyle(fontSize: 12, color: Colors.grey),
           ),
