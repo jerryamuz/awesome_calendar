@@ -7,7 +7,7 @@ class DefaultWeekdayLabels extends StatelessWidget {
   final DateTime thursday = DateTime(2020, 01, 09);
   final DateTime friday = DateTime(2020, 01, 10);
   final DateTime saturday = DateTime(2020, 01, 11);
-  final DateTime sunday = DateTime(2020, 01, 12);
+  final DateTime sunday = DateTime(2020, 01, 05);
 
   @override
   Widget build(BuildContext context) {
