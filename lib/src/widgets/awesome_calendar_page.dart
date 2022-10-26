@@ -76,7 +76,10 @@ class AwesomeCalendarPage extends StatelessWidget {
   /// Create one line of days (a week)
   List<Widget> buildCalendarRow(
       BuildContext context, DateTime rowStartDate, DateTime rowEndDate) {
-    final List<Widget> items = <Widget>[];
+    final List<Widget> items = <Widget>[
+      const Expanded(
+        child: Text(''),
+      ),];
 
     DateTime currentDate = rowStartDate;
     for (int i = 0; i < 7; i++) {
