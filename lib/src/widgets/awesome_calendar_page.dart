@@ -44,7 +44,7 @@ class AwesomeCalendarPage extends StatelessWidget {
 
     // First week
     final DateTime rowLastDayDate =
-        CalendarHelper.addDaysToDate(pageStartDate, 6 - startDayOffset);
+        CalendarHelper.addDaysToDate(pageStartDate, 7 - startDayOffset);
     rows.add(
       Row(
         children: buildCalendarRow(context, pageStartDate, rowLastDayDate),
@@ -76,10 +76,7 @@ class AwesomeCalendarPage extends StatelessWidget {
   /// Create one line of days (a week)
   List<Widget> buildCalendarRow(
       BuildContext context, DateTime rowStartDate, DateTime rowEndDate) {
-    final List<Widget> items = <Widget>[
-      const Expanded(
-        child: Text(''),
-      ),];
+    final List<Widget> items = <Widget>[];
 
     DateTime currentDate = rowStartDate;
     for (int i = 0; i < 7; i++) {
