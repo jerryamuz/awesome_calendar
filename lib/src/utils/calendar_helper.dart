@@ -51,7 +51,7 @@ class CalendarHelper {
   }
 
   static DateTime getFirstDayOfMonth(DateTime month) {
-    return DateTime(month.year, month.month, month.day - (date.weekday - 1));
+    return DateTime(month.year, month.month, month.day - (month.weekday - 1));
   }
 
   static DateTime getLastDayOfMonth(DateTime month) {
