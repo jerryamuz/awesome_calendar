@@ -44,7 +44,7 @@ class AwesomeCalendarPage extends StatelessWidget {
 
     // First week
     final DateTime rowLastDayDate =
-        CalendarHelper.addDaysToDate(pageStartDate, 7 - startDayOffset);
+        CalendarHelper.addDaysToDate(pageStartDate, 6 - startDayOffset);
     rows.add(
       Row(
         children: buildCalendarRow(context, pageStartDate, rowLastDayDate),
